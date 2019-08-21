@@ -1,0 +1,36 @@
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+.item {
+  
+  width: 250px;
+  height: 250px;
+  background: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+p.bold {
+ 
+  font-family: sans-serif;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: white;
+}
+.item.prvi {
+  background: #802525;
+}
+.item.drugi {
+  background: #0b695d;
+}
+.item.treci {
+  background: #055f8c;
+}
+.item.cetvrti {
+  background: #420875;
+}
